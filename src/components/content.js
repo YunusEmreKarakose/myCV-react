@@ -1,22 +1,28 @@
 import React from 'react';
 
-function FullPage4() {
+function Content() {
   return (
     <div>  
-        <div id="latestalbum" class="hero pad">
+        <div id="general" class="hero pad">
             <div class="container">
                 <h3>General İnformation</h3>
+                <p1>Interested software and web based technologies(Iot, Web Development etc.). 
+                    Interested the principle of lifelong learning. I can learn and use quickly 
+                    new languages, tools etc. Knowledge about databases. Can work on Linux 
+                    dist(previously used: kubuntu/ubuntu). Can work in a team as a member or 
+                    leader using Git.
+                </p1>
             </div>
         </div>
         
-        <div class="promo parallax-one pad">
+        <div id="experience" class="promo parallax-one pad">
             <div class="container">
                 <div class="promo-element ">
                     <h3>Experience</h3>        
                 </div>
             </div>
         </div>
-        <div class="featured pad" id="featuredalbum">
+        <div class="featured pad" id="skills">
             <div class="container">
                 
                 <div class="default-heading">                    
@@ -24,7 +30,7 @@ function FullPage4() {
                 </div>
                     
                     <ul >
-                        <li><img src="img/skills/c.jpg"></img></li>
+                        <li><img src="img/skills/c.jpg"  ></img></li>
                         <li><img src="img/skills/c++.png"></img></li>
                         <li><img src="img/skills/lora.png"></img></li>
                         <li><img src="img/skills/lora.png"></img></li>
@@ -32,7 +38,7 @@ function FullPage4() {
                 
             </div>
         </div>
-        <div class="cta parallax-one pad">
+        <div id="education"class="cta parallax-one pad">
             <div class="container">
                 <div class="cta-element ">
                     <div class="row">
@@ -41,7 +47,7 @@ function FullPage4() {
                 </div>
             </div>
         </div>
-        <div class="work-with-us pad" id="joinus">
+        <div class="work-with-us pad" id="languages">
             <div class="container">
                 <div class="default-heading">
                     <h2>Languages</h2>
@@ -50,7 +56,7 @@ function FullPage4() {
                 
             </div>
         </div>
-        <div class="news-letter">
+        <div id="interests"class="news-letter">
             <div class="container">
                 <div class="news-content ">
                     <h3>Interests</h3>
@@ -59,7 +65,7 @@ function FullPage4() {
             </div>
         </div>
         
-        <div class="portfolio pad" id="portfolio">
+        <div class="portfolio pad" id="ask">
             <div>
                 <div class="default-heading">
                     <h2>Ask Me</h2>
@@ -148,4 +154,4 @@ function FullPage4() {
     )
 }
 
-export default FullPage4;
+export default Content;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function FullPage2() {
+function Top() {
   return (
     <div>  
         <div class="wrapper" id="home">            
@@ -32,19 +32,19 @@ function FullPage2() {
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="#home">
-                                <img class="img-responsive" src="img/logo/logo.png" alt="" />
+                                <img class="img-responsive" src="img/logo/logo3.jpg" alt="" />
                             </a>
                         </div>
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#latestalbum">General İnformation</a></li>
-                                <li><a href="#featuredalbum">Experience</a></li>
-                                <li><a href="#joinus">Skills</a></li>
-                                <li><a href="#portfolio">Education</a></li>
-                                <li><a href="#events">Languages</a></li>
-                                <li><a href="#team">interests</a></li>
-                                <li><a href="#contact">Ask Me</a></li>
+                                <li><a href="#general">General İnformation</a></li>
+                                <li><a href="#experience">Experience</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#education">Education</a></li>
+                                <li><a href="#languages">Languages</a></li>
+                                <li><a href="#interests">interests</a></li>
+                                <li><a href="#ask">Ask Me</a></li>
                             </ul>
                         </div>
                     </div>
@@ -72,4 +72,4 @@ function FullPage2() {
     )
 }
 
-export default FullPage2;
+export default Top;
