@@ -13,10 +13,10 @@ function Top() {
                         </div>
                         <div class="sm-right">
                             <div class="sm-social-link">
-                                <a class="h-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                                <a class="h-facebook" href="#"><i class="fa fa-facebook"></i></a>
-                                <a class="h-twitter" href="#"><i class="fa fa-twitter"></i></a>
-                                <a class="h-google" href="#"><i class="fa fa-google-plus"></i></a>
+                                <a class="fa fa-linkedin"href="https://linkedin.com/in/yunus-emre-karaköse-347a1b169/" ></a>                                
+                                <a class="fa fa-github" href="https://github.com/YunusEmreKarakose" ></a>
+                                <a class="fa fa-google"href="#" ></a>
+                                <a class="fa fa-instagram" href="https://instagram.com/emre3.krks/" ></a>
                             </div>
                         </div>
                         <div class="clearfix"></div>

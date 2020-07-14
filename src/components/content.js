@@ -6,11 +6,11 @@ function Content() {
         <div id="general" class="hero pad">
             <div class="container">
                 <h3>General İnformation</h3>
-                <p1>Interested software and web based technologies(Iot, Web Development etc.). 
+                <p1 class="aboutme">Interested software and web based technologies(Iot, Web Development etc.). 
                     Interested the principle of lifelong learning. I can learn and use quickly 
                     new languages, tools etc. Knowledge about databases. Can work on Linux 
                     dist(previously used: kubuntu/ubuntu). Can work in a team as a member or 
-                    leader using Git.
+                    leader using Git.aa
                 </p1>
             </div>
         </div>
@@ -30,10 +30,20 @@ function Content() {
                 </div>
                     
                     <ul >
-                        <li><img src="img/skills/c.jpg"  ></img></li>
-                        <li><img src="img/skills/c++.png"></img></li>
-                        <li><img src="img/skills/lora.png"></img></li>
-                        <li><img src="img/skills/lora.png"></img></li>
+                        <li class="skill"><img src="img/skills/c.png"  ></img></li>
+                        <li class="skill"><img src="img/skills/c++.png"></img></li>
+                        <li class="skill"><img src="img/skills/python.png"></img></li>
+                    </ul>
+                    
+                    <ul >
+                        <li class="skill"><img src="img/skills/nodejs.png"  ></img></li>
+                        <li class="skill"><img src="img/skills/expressjs.jpg"></img></li>
+                        <li class="skill"><img src="img/skills/react.png"></img></li>
+                    </ul>
+                    <ul >
+                        <li class="skill"><img src="img/skills/mysql.png"  ></img></li>
+                        <li class="skill"><img src="img/skills/mongo.png"></img></li>
+                        <li class="skill"><img src="img/skills/lora.png"></img></li>
                     </ul>
                 
             </div>
@@ -127,10 +137,10 @@ function Content() {
         <footer>
             <div class="container">
                 <div class="social">
-                    <a class="h-facebook" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="h-google" href="#"><i class="fa fa-google-plus"></i></a>
-                    <a class="h-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                    <a class="h-twitter" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="fa fa-linkedin"href="https://linkedin.com/in/yunus-emre-karaköse-347a1b169/" ></a>                                
+                    <a class="fa fa-github" href="https://github.com/YunusEmreKarakose" ></a>
+                    <a class="fa fa-google"href="#" ></a>
+                    <a class="fa fa-instagram" href="https://instagram.com/emre3.krks/" ></a>
                 </div>
                 <p class="copy-right">&copy; copyright 2018, All rights are reserved.</p>
             </div>

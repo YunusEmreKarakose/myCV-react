@@ -16,6 +16,9 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 700;
 }
 
+p1.aboutme{	
+	font-size: 18px;
+}
 p{
 	margin:0;
 	padding:0;
@@ -24,11 +27,13 @@ p{
 }
 ul{
 	list-style-type: none;
-	margin: 0;
+	margin: 10px;
 	padding: 0;
 	overflow: hidden;
 }
-
+li.skill{
+	margin:50px;
+}
 li {
   float: left;
 }
@@ -52,9 +57,6 @@ a:hover,a:active,a:focus {
 	text-decoration: none;
 }
 
-hr{
-
-}
 
 :active {
 	outline: none;
