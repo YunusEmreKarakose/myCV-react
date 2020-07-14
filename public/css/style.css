@@ -15,7 +15,20 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 }
-
+dl.expinfo{
+	background-color: gray;
+	padding: 30px;
+}
+ul.skilldetail{
+	background-color: gray;
+	list-style-type: disc;
+	padding: 30px;
+}
+li.skilldetail{
+	float:none;
+	font-size: 18px;
+	list-style-type: disc;
+}
 p1.aboutme{	
 	font-size: 18px;
 }

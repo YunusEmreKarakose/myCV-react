@@ -20,6 +20,16 @@ function Content() {
                 <div class="promo-element ">
                     <h3>Experience</h3>        
                 </div>
+                <dl class="expinfo">
+                    <dt>Proline Integrated Intelligence</dt>
+                    <dt>2018 Summer Intern</dt>
+                    <dd>Worked about web technologies in the R&D Department</dd>
+                </dl>
+                <dl class="expinfo">
+                    <dt>Mavi Alp</dt>
+                    <dt>2019 Summer Intern</dt>
+                    <dd>IoT project with using LoRa</dd>
+                </dl>
             </div>
         </div>
         <div class="featured pad" id="skills">
@@ -28,65 +38,79 @@ function Content() {
                 <div class="default-heading">                    
                     <h2>Skills</h2>                    
                 </div>
-                    
+                    <h4>Programming Languages</h4>
                     <ul >
                         <li class="skill"><img src="img/skills/c.png"  ></img></li>
                         <li class="skill"><img src="img/skills/c++.png"></img></li>
                         <li class="skill"><img src="img/skills/python.png"></img></li>
+                        <li class="skill"><img src="img/skills/js.png"></img></li>
                     </ul>
-                    
+                    <h4> Runtime Environment/Frameworks/API </h4>
                     <ul >
                         <li class="skill"><img src="img/skills/nodejs.png"  ></img></li>
-                        <li class="skill"><img src="img/skills/expressjs.jpg"></img></li>
+                        <li class="skill"><img src="img/skills/expressjs.png"></img></li>
                         <li class="skill"><img src="img/skills/react.png"></img></li>
+                        <li class="skill"><img src="img/skills/openmp.png"></img></li>
                     </ul>
+                    <h4>Databases</h4>
                     <ul >
                         <li class="skill"><img src="img/skills/mysql.png"  ></img></li>
                         <li class="skill"><img src="img/skills/mongo.png"></img></li>
+                    </ul>
+                    <h4>Other</h4>
+                    <ul >
                         <li class="skill"><img src="img/skills/lora.png"></img></li>
                     </ul>
                 
             </div>
         </div>
-        <div id="education"class="cta parallax-one pad">
+        <div id="skilldetail"class="cta parallax-one pad">
             <div class="container">
                 <div class="cta-element ">
                     <div class="row">
-                        <h1>Education</h1>
+                        <h1>SkillDetails</h1>                        
                     </div>
                 </div>
+                <ul class="skilldetail">
+                    <li class="skilldetail"> C/C++ : Algorithm implementation and aplications. Some OOP based aplications. </li>
+                    <li class="skilldetail"> Python: Server/Client aplications over UDP/TCP </li>
+                    <li class="skilldetail"> Javascript (NodeJs) : Restful web services, API’s. Database management systems</li>
+                    <li class="skilldetail">Basic knowledge C#, golang and java</li>
+                    <li class="skilldetail"> MySQL : Relational database programing and strong sql knowledge </li>
+                    <li class="skilldetail">Creating aplications with using gateway .Lora end node programing </li>
+                </ul>
             </div>
         </div>
-        <div class="work-with-us pad" id="languages">
+        <div class="work-with-us pad" id="education">
             <div class="container">
                 <div class="default-heading">
-                    <h2>Languages</h2>
+                    <h2>education</h2>
                 </div>
                 
                 
             </div>
         </div>
-        <div id="interests"class="news-letter">
+        <div id="languages"class="news-letter">
             <div class="container">
                 <div class="news-content ">
-                    <h3>Interests</h3>
+                    <h3>languages</h3>
                     
                 </div>
             </div>
         </div>
         
-        <div class="portfolio pad" id="ask">
+        <div class="portfolio pad" id="interests">
             <div>
                 <div class="default-heading">
-                    <h2>Ask Me</h2>
+                    <h2>interests</h2>
                 </div>
             </div>
             
         </div>
-        <div class="events parallax-three pad" id="events">
+        <div class="events parallax-three pad" id="ask">
             <div class="container">
                 <div class="default-heading-shadow">
-                    <h2>Coming Events</h2>
+                    <h2>Ask</h2>
                 </div>
             </div>
         </div>
