@@ -5,7 +5,9 @@ function Info() {
     <div>  
         <div id="general" class="pad1">
             <div class="container">
-                <h3>General İnformation</h3>
+                <div class="default-heading">                    
+                    <h2>General Information</h2>                    
+                </div>
                 <p1 class="aboutme">Interested software and web based technologies(Iot, Web Development etc.). 
                     Interested the principle of lifelong learning. I can learn and use quickly 
                     new languages, tools etc. Knowledge about databases. Can work on Linux 

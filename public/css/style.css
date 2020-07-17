@@ -15,23 +15,6 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 }
-dl.expinfo{
-	background-color: gray;
-	padding: 30px;
-}
-ul.skilldetail{
-	background-color: gray;
-	list-style-type: disc;
-	padding: 30px;
-}
-li.skilldetail{
-	float:none;
-	font-size: 18px;
-	list-style-type: disc;
-}
-p1.aboutme{	
-	font-size: 18px;
-}
 p{
 	margin:0;
 	padding:0;
@@ -43,9 +26,6 @@ ul{
 	margin: 10px;
 	padding: 0;
 	overflow: hidden;
-}
-li.skill{
-	margin:50px;
 }
 li {
   float: left;
@@ -82,9 +62,7 @@ background-color: white;}
 .parallax-three { background: url('../img/background/overlay.png'), url('../img/promo/p3.jpg') fixed 50%;}
 .parallax-four { background: url('../img/background/overlay.png'), url('../img/promo/p4.jpg') fixed 50%;}
 
-/* 
- * Basic CSS ends 
- */
+
  
 /* header */
 /* navigation */
@@ -115,14 +93,146 @@ background-color: white;}
 .navbar-default .navbar-toggle:focus{background: transparent;}
 
 .navbar-brand>img {
-	width: 100%;
+	width: 65%;
 	max-width: 130px;
 }
-/*skill img*/
+/*experience*/
+dl.expinfo{
+	background-color:#656565;
+	color:white;
+	padding: 30px;
+}
+/*general info(only pad1 is general info pad)*/
+.pad1 p1{	
+	font-size: 18px;
+}
+
+/*skills*/
 img.skillimg:hover,
 img.skillimg:active{
 	width: 150%;
 	height: 150%;
+}
+ul.skilldetail{
+	list-style-type: disc;
+	padding: 30px;
+}
+li.skilldetail{
+	float:none;
+	font-size: 18px;
+	color: white;
+	list-style-type: disc;
+}
+li.skill{
+	margin:30px;
+	float: left;
+}
+/*education*/
+.educationItem{
+	padding-bottom: 100px;
+}
+.educationItem h1{
+	font-size:18px;
+}
+.educationItem p1{
+	font-size:18px;
+}
+.educationItem img{
+	width: 9%;
+	height: 9%;
+	float: left;
+	padding-right: 30px;
+}
+/*language*/
+.languageItem dt{
+	background-color: gray;
+	color:white;
+	font-size: 20px;
+	padding:10px;
+}
+.languageItem dd{
+	background-color: gray;
+	color:white;
+	font-size: 17px;
+}
+/*Interests*/
+.interestItem img{
+	max-width: 100px;
+}
+.interestItem ul{
+	padding: 20px;
+}
+.interestItem ul li{
+	padding-left: 100px;
+}
+/*hover over img (interest)*/
+	.content_img img{
+		max-width: 100px;
+		padding: 0px;
+	}
+	/* Parent Container */
+	.content_img{
+		position: relative;
+		max-width: 100px;
+		max-height: 100px;
+		float: left;
+		margin-right: 10px;
+	}
+	
+	/* Child Text Container */
+	.content_img div{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background: black;
+		color: white;
+		margin-bottom: 5px;
+		font-family: sans-serif;
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transition: visibility 0s, opacity 0.5s linear; 
+		transition: visibility 0s, opacity 0.5s linear;
+	}
+	
+	/* Hover on Parent Container */
+	.content_img:hover{
+		cursor: pointer;
+	}
+	
+	.content_img:hover div{
+		width: 150px;
+		padding: 8px 15px;
+		visibility: visible;
+		opacity: 0.7; 
+	}
+/*Ask me*/
+.askItem{
+	float: left;
+}
+.askItem dl{
+	background-color: gray;
+	color: white;
+	font-size: 20px;
+	width: 500px;
+}
+.askLink  a {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	margin: 0 7px;
+	margin-bottom: 30px;
+	color: white;
+	background-color: gray;
+	font-size: 32px;
+	border: 1px solid transparent;
+	border-radius: 80px;
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-ms-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;
 }
 /* secondary menu */
 
@@ -178,7 +288,7 @@ img.skillimg:active{
 	margin-top: 0;
 	margin-bottom: 30px;
 	padding: 25px 30px;
-	font-size: 45px;
+	font-size: 30px;
 	text-transform: uppercase;
 }
 

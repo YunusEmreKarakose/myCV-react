@@ -15,7 +15,7 @@ function Skills() {
                         <li class="skill"><img class="skillimg"  src="img/skills/c++.png"></img></li>
                         <li class="skill">
                             <a href="https://github.com/YunusEmreKarakose/PythonServer">
-                                <img class="skillimg"  src="img/skills/python.png"></img>
+                                <img class="skillimg"title="Click to view example"   src="img/skills/python.png"></img>
                             </a>
                         </li>
                         <li class="skill"><img class="skillimg"  src="img/skills/js.png"></img></li>
@@ -24,22 +24,22 @@ function Skills() {
                     <ul >
                         <li class="skill">
                             <a href="https://github.com/YunusEmreKarakose/KtuMebsis">
-                            <img class="skillimg"src="img/skills/nodejs.png"  ></img>
+                            <img class="skillimg"title="Click to view example" src="img/skills/nodejs.png"  ></img>
                             </a>
                         </li>
                         <li class="skill">
                             <a href="https://github.com/YunusEmreKarakose/KtuMebsis">
-                                <img class="skillimg" src="img/skills/expressjs.png"></img>
+                                <img class="skillimg"title="Click to view example"  src="img/skills/expressjs.png"></img>
                             </a>
                         </li>
                         <li class="skill">
                             <a href="#">
-                                <img class="skillimg" src="img/skills/react.png"></img>
+                                <img class="skillimg"title="Click to view example"  src="img/skills/react.png"></img>
                             </a>
                         </li>
                         <li class="skill">
                             <a href="https://github.com/YunusEmreKarakose/ParalelComputing">
-                                <img  class="skillimg"src="img/skills/openmp.png" ></img>
+                                <img  class="skillimg"title="Click to view example" src="img/skills/openmp.png" ></img>
                             </a>
                         </li>
                     </ul>
@@ -61,12 +61,18 @@ function Skills() {
                     <h2>skilldetail</h2>                    
                 </div>
                 <ul class="skilldetail">
-                    <li class="skilldetail"> C/C++ : Algorithm implementation and aplications. Some OOP based aplications. </li>
+                    <li class="skilldetail"> 
+                        C/C++ : Algorithm implementation and aplications. Some OOP based aplications.
+                        Parallel programing. 
+                    </li>
                     <li class="skilldetail"> Python: Server/Client aplications over UDP/TCP </li>
                     <li class="skilldetail"> Javascript (NodeJs) : Restful web services, API’s. Database management systems</li>
                     <li class="skilldetail">Basic knowledge C#, golang and java</li>
                     <li class="skilldetail"> MySQL : Relational database programing and strong sql knowledge </li>
-                    <li class="skilldetail">Creating aplications with using gateway .Lora end node programing </li>
+                    <li class="skilldetail">
+                        Creating aplications with using gateway .Lora end node programing.
+                        Gateway-end node, gateway-server, end node-end node comminications.
+                    </li>
                 </ul>
             </div>
         </div>
