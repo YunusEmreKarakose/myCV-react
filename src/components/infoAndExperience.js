@@ -17,8 +17,8 @@ function Info() {
         
         <div id="experience" class="promo parallax-one pad">
             <div class="container">
-                <div class="promo-element ">
-                    <h3>Experience</h3>        
+                <div class="default-heading-shadow">                    
+                    <h2>Experience</h2>                    
                 </div>
                 <dl class="expinfo">
                     <dt>Proline Integrated Intelligence</dt>

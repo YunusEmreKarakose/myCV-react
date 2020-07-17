@@ -1,9 +1,10 @@
 import React from 'react';
 import Top from './components/top'
-import Content from './components/content'
 import Footer from './components/footer'
 import Info from './components/infoAndExperience'
 import Skills from './components/skills';
+import Education from './components/education'
+import Other from './components/other'
 function App() {
   return (
     <div>
@@ -11,7 +12,8 @@ function App() {
     <Top/>
     <Info/>
     <Skills/>
-    <Content/>
+    <Education/>
+    <Other/>
     <Footer/>
     </div>
   )
