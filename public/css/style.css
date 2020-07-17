@@ -57,31 +57,6 @@ li a {
   padding: 16px;
   text-decoration: none;
 }
-a{
-	text-decoration: none;
-}
-
-a:hover{
-	text-decoration: none;
-}
-
-a:hover,a:active,a:focus {
-	outline: 0;
-	text-decoration: none;
-}
-
-
-:active {
-	outline: none;
-}
-:focus {
-	outline:none;
-	outline-width: 0;
-}
-
-::-moz-focus-inner {
-	border:0;
-}
 .btn, .form-control,
 .form-control:focus {
 	border-radius: 0px !important;
@@ -99,7 +74,7 @@ a:hover,a:active,a:focus {
 background-color: white;}
 .pad1 {
 	padding: 150px 0px;
-	background-color: gray;
+	background-color: white;
 }
 
 .parallax-one { background: url('../img/promo/p1.jpeg') fixed 50%;}
@@ -143,7 +118,12 @@ background-color: white;}
 	width: 100%;
 	max-width: 130px;
 }
-
+/*skill img*/
+img.skillimg:hover,
+img.skillimg:active{
+	width: 150%;
+	height: 150%;
+}
 /* secondary menu */
 
 .secondary-menu {
