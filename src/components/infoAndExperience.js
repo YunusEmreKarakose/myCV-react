@@ -3,16 +3,16 @@ import React from 'react';
 function Info() {
   return (
     <div>  
-        <div id="general" class="pad1">
+        <div id="general" class="firstpad">
             <div class="container">
                 <div class="default-heading">                    
                     <h2>General Information</h2>                    
                 </div>
                 <p1 class="aboutme">Interested software and web based technologies(Iot, Web Development etc.). 
                     Interested the principle of lifelong learning. I can learn and use quickly 
-                    new languages, tools etc. Knowledge about databases. Can work on Linux 
+                    new languages, tools etc.  Can work on Linux 
                     dist(previously used: kubuntu/ubuntu). Can work in a team as a member or 
-                    leader using Git.aa
+                    leader using Git.
                 </p1>
             </div>
         </div>

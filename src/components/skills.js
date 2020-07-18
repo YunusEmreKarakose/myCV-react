@@ -33,7 +33,7 @@ function Skills() {
                             </a>
                         </li>
                         <li class="skill">
-                            <a href="#">
+                            <a href="https://github.com/YunusEmreKarakose/myCV-react">
                                 <img class="skillimg"title="Click to view example"  src="img/skills/react.png"></img>
                             </a>
                         </li>
