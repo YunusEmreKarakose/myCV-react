@@ -1,5 +1,5 @@
 import React from 'react';
-import Top from './components/top'
+import Header from './components/header'
 import Footer from './components/footer'
 import Info from './components/infoAndExperience'
 import Skills from './components/skills';
@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
     
-    <Top/>
+    <Header/>
     <Info/>
     <Skills/>
     <Education/>

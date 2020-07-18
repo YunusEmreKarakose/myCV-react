@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Top() {
+function Header() {
   return (
     <div>  
         <div class="wrapper" id="home">            
@@ -53,23 +53,8 @@ function Top() {
             <span class="totop"><a href="#"><i class="fa fa-chevron-up"></i></a></span> 
             
         </div>
-        <script src="../public/js/jquery.js"></script>
-        
-        <script src="../public/js/bootstrap.min.js"></script>
-
-        <script src="../public/js/waypoints.min.js"></script>
-
-        <script src="../public/js/owl.carousel.min.js"></script>
-        
-        <script src="../public/js/jquery.nav.js"></script>
-
-        <script src="../public/js/respond.min.js"></script>
-        
-        <script src="../public/js/html5shiv.js"></script>
-        
-        <script src="../public/js/custom.js"></script>
     </div> 
     )
 }
 
-export default Top;
+export default Header;

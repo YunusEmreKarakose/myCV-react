@@ -50,7 +50,7 @@ li a {
 }
 
 
-.pad {padding: 30px 0px;
+.pad {padding: 110px 0px;
 background-color: white;}
 .pad1 {
 	padding: 150px 0px;
@@ -95,6 +95,42 @@ background-color: white;}
 .navbar-brand>img {
 	width: 65%;
 	max-width: 130px;
+}
+/*social media buttons*/
+/*header*/
+.sm-social-link a.fa-linkedin:hover,
+.sm-social-link a.fa-linkedin:active{
+	background-color: #0072b1;
+}
+.sm-social-link a.fa-github:hover,
+.sm-social-link a.fa-github:active{
+	background-color: #333;
+}
+.sm-social-link a.fa-instagram:hover,
+.sm-social-link a.fa-instagram:active{
+	background-color: #C13584;
+}
+.sm-social-link a.fa-google:hover,
+.sm-social-link a.fa-google:active{
+	background-color: #db3236;
+}
+
+/*footer*/
+.social a.fa-linkedin:hover,
+.social a.fa-linkedin:active{
+	background-color: #0072b1;
+}
+.social a.fa-github:hover,
+.social a.fa-github:active{
+	background-color: #333;
+}
+.social a.fa-instagram:hover,
+.social a.fa-instagram:active{
+	background-color:#C13584;
+}
+.social a.fa-google:hover,
+.social a.fa-google:active{
+	background-color:#db3236;
 }
 /*experience*/
 dl.expinfo{
@@ -285,6 +321,7 @@ li.skill{
 .default-heading-shadow h2 {
 	position: relative;
 	display: inline-block;
+	border-radius: 24px;
 	margin-top: 0;
 	margin-bottom: 30px;
 	padding: 25px 30px;
