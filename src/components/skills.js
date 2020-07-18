@@ -9,8 +9,8 @@ function Skills() {
                 <div class="default-heading">                    
                     <h2>Skills</h2>                    
                 </div>
-                    <h4>Programming Languages</h4>
-                    <ul >
+                    <h4 class="descript">Programming Languages</h4>
+                    <ul class="pLang">
                         <li class="skill"><img class="skillimg"  src="img/skills/c.png"  ></img></li>
                         <li class="skill"><img class="skillimg"  src="img/skills/c++.png"></img></li>
                         <li class="skill">
@@ -20,7 +20,7 @@ function Skills() {
                         </li>
                         <li class="skill"><img class="skillimg"  src="img/skills/js.png"></img></li>
                     </ul>
-                    <h4> Runtime Environment/Frameworks/API </h4>
+                    <h4 class="descript"> Runtime Environment/Frameworks/API </h4>
                     <ul >
                         <li class="skill">
                             <a href="https://github.com/YunusEmreKarakose/KtuMebsis">
@@ -43,14 +43,19 @@ function Skills() {
                             </a>
                         </li>
                     </ul>
-                    <h4>Databases</h4>
-                    <ul >
-                        <li class="skill"><img  class="skillimg" src="img/skills/mysql.png"  ></img></li>
+                    <h4 class="descript">Databases</h4>
+                    <ul class="databases">
+                        <li class="skill">
+                            <a href="https://node-mysql-example.herokuapp.com">
+                            <img  class="skillimg"title="Click to view example(Turkish)" src="img/skills/mysql.png"  ></img>
+                            </a>
+                        </li>
                         <li class="skill"><img  class="skillimg" src="img/skills/mongo.png"></img></li>
                     </ul>
-                    <h4>Other</h4>
-                    <ul >
+                    <h4 class="descript">Other</h4>
+                    <ul class="other">
                         <li class="skill"><img class="skillimg"  src="img/skills/lora.png"></img></li>
+                        <li class="skill"><img class="skillimg"  src="img/skills/rest.png"></img></li>
                     </ul>
                 
             </div>

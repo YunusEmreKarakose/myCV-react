@@ -7,8 +7,7 @@ import Education from './components/education'
 import Other from './components/other'
 function App() {
   return (
-    <div>
-    
+    <div>    
     <Header/>
     <Info/>
     <Skills/>
