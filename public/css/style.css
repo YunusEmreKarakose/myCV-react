@@ -27,9 +27,6 @@ ul{
 	padding: 0;
 	overflow: hidden;
 }
-li {
-  float: left;
-}
 li a {
   display: block;
   color: white;
@@ -160,27 +157,25 @@ dl.expinfo{
 }
 
 /*skills*/
-li.skill{
-	margin:30px;
-	float: left;
-}
-ul.pLang{
-	padding-left: 250px;
-}
-ul.databases{
-	padding-left: 380px;
-}
-ul.other{
-	padding-left: 380px;
-}
-h4.descript{
+.skilllist{
 	text-align: center;
 }
+.skilllist ul li{
+	display: inline-flex;
+	padding-left: 30px;
+	padding-right: 30px;
+}/*
+.pad .skilllist ul li img:hover,
+.pad .skilllist ul li img:active{
+	width: 150%;
+
+}*/
+
 img.skillimg:hover,
 img.skillimg:active{
 	width: 150%;
-	height: 150%;
 }
+/*detail*/
 ul.skilldetail{
 	list-style-type: disc;
 	padding: 30px;
@@ -227,12 +222,14 @@ li.skilldetail{
 .interestItem img{
 	max-width: 100px;
 }
-.interestItem ul{
-	padding: 20px;
-	padding-left: 300px;
+.interestItem{
+	text-align: center;
 }
 .interestItem ul li{
-	padding-left: 100px;
+	display: inline-flex;
+	padding: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 /*hover over img (interest)*/
 	.content_img img{
@@ -506,10 +503,6 @@ footer .social a {
 	transition: all 0.25s linear;
 }
 
-footer .copy-right {
-	color: #fff;
-	font-size: 12px;
-}
 
 /* Back to top */
 
@@ -559,6 +552,7 @@ footer .copy-right {
 /*
  * Mobile phones 
  */
+ 
 @media (max-width: 575px){
 	.banner .slide-one h3, .banner .slide-two h3,
 	.banner .slide-one .btn, .banner .slide-two .btn {display: none !important;}
@@ -596,14 +590,6 @@ footer .copy-right {
 	}
 	
 	.cta .cta-element .cta-btn {margin-top: 30px;}
-	
-	.work-with-us .why-content .why-message {max-width: 450px; margin: 0 auto;}
-	
-	.news-letter .news-content {
-		max-width: 500px;
-		margin: 0 auto;
-	}
-		
 	
 }
 

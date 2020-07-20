@@ -9,55 +9,63 @@ function Skills() {
                 <div class="default-heading">                    
                     <h2>Skills</h2>                    
                 </div>
+                <div class="skilllist">
                     <h4 class="descript">Programming Languages</h4>
-                    <ul class="pLang">
-                        <li class="skill"><img class="skillimg"  src="img/skills/c.png"  ></img></li>
-                        <li class="skill"><img class="skillimg"  src="img/skills/c++.png"></img></li>
-                        <li class="skill">
-                            <a href="https://github.com/YunusEmreKarakose/PythonServer">
+                    <ul>
+                        <li ><a><img class="skillimg"  src="img/skills/c.png"  ></img></a></li>
+                        <li><a><img class="skillimg"  src="img/skills/c++.png"></img></a></li>
+                        <li><a><img class="skillimg"  src="img/skills/js.png"></img></a></li>
+                        <li>
+                            <a class="linkskill" href="https://github.com/YunusEmreKarakose/PythonServer">
                                 <img class="skillimg"title="Click to view example"   src="img/skills/python.png"></img>
                             </a>
                         </li>
-                        <li class="skill"><img class="skillimg"  src="img/skills/js.png"></img></li>
                     </ul>
+                </div>
+                
+                <div class="skilllist">                    
                     <h4 class="descript"> Runtime Environment/Frameworks/API </h4>
                     <ul >
-                        <li class="skill">
+                        <li>
                             <a href="https://github.com/YunusEmreKarakose/KtuMebsis">
                             <img class="skillimg"title="Click to view example" src="img/skills/nodejs.png"  ></img>
                             </a>
                         </li>
-                        <li class="skill">
+                        <li>
                             <a href="https://github.com/YunusEmreKarakose/KtuMebsis">
                                 <img class="skillimg"title="Click to view example"  src="img/skills/expressjs.png"></img>
                             </a>
                         </li>
-                        <li class="skill">
+                        <li>
                             <a href="https://github.com/YunusEmreKarakose/myCV-react">
                                 <img class="skillimg"title="Click to view example"  src="img/skills/react.png"></img>
                             </a>
                         </li>
-                        <li class="skill">
+                        <li>
                             <a href="https://github.com/YunusEmreKarakose/ParalelComputing">
                                 <img  class="skillimg"title="Click to view example" src="img/skills/openmp.png" ></img>
                             </a>
                         </li>
                     </ul>
-                    <h4 class="descript">Databases</h4>
-                    <ul class="databases">
-                        <li class="skill">
+                </div>               
+                <div class="skilllist">
+                    <h4 class="descript">Databases</h4> 
+                    <ul >
+                        <li>
                             <a href="https://node-mysql-example.herokuapp.com">
                             <img  class="skillimg"title="Click to view example(Turkish)" src="img/skills/mysql.png"  ></img>
                             </a>
                         </li>
-                        <li class="skill"><img  class="skillimg" src="img/skills/mongo.png"></img></li>
+                        <li ><a><img  class="skillimg" src="img/skills/mongo.png"></img></a></li>
                     </ul>
-                    <h4 class="descript">Other</h4>
-                    <ul class="other">
-                        <li class="skill"><img class="skillimg"  src="img/skills/lora.png"></img></li>
-                        <li class="skill"><img class="skillimg"  src="img/skills/rest.png"></img></li>
+                </div>            
+                <div class="skilllist">
+                    <h4 class="descript">Other</h4>    
+                    <ul >
+                        <li ><img class="skillimg"  src="img/skills/lora.png"></img></li>
+                        <li ><img class="skillimg"  src="img/skills/rest.png"></img></li>
                     </ul>
-                
+                </div>
             </div>
         </div>
         <div id="skilldetail"class="promo parallax-two pad">
