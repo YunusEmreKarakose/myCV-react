@@ -56,14 +56,14 @@ function Skills() {
                             <img  class="skillimg"title="Click to view example(Turkish)" src="img/skills/mysql.png"  ></img>
                             </a>
                         </li>
-                        <li ><a><img  class="skillimg" src="img/skills/mongo.png"></img></a></li>
+                        <li ><a href="https://github.com/YunusEmreKarakose/NodeJS-2018-Databases/tree/master/EAE-BANK-YEKV3-MongoDB"><img  class="skillimg" src="img/skills/mongo.png"></img></a></li>
                     </ul>
                 </div>            
                 <div class="skilllist">
                     <h4 class="descript">Other</h4>    
                     <ul >
-                        <li ><img class="skillimg"  src="img/skills/lora.png"></img></li>
-                        <li ><img class="skillimg"  src="img/skills/rest.png"></img></li>
+                        <li ><a href="https://github.com/YunusEmreKarakose/mdot-code-example"><img class="skillimg"  src="img/skills/lora.png"></img></a></li>
+                        <li ><a><img class="skillimg"  src="img/skills/rest.png"></img></a></li>
                     </ul>
                 </div>
             </div>
@@ -71,19 +71,19 @@ function Skills() {
         <div id="skilldetail"class="promo parallax-two pad">
             <div class="container">                
                 <div class="default-heading-shadow">                    
-                    <h2>skilldetail</h2>                    
+                    <h2>Skilldetail</h2>                    
                 </div>
                 <ul class="skilldetail">
                     <li class="skilldetail"> 
-                        C/C++ : Algorithm implementation and aplications. Some OOP based aplications.
+                        C/C++ : Algorithm implementation and applications. Some OOP based applications.
                         Parallel programing. 
                     </li>
-                    <li class="skilldetail"> Python: Server/Client aplications over UDP/TCP </li>
+                    <li class="skilldetail"> Python: Server/Client applications over UDP/TCP </li>
                     <li class="skilldetail"> Javascript (NodeJs) : Restful web services, API’s. Database management systems</li>
                     <li class="skilldetail">Basic knowledge C#, golang and java</li>
                     <li class="skilldetail"> MySQL : Relational database programing and strong sql knowledge </li>
                     <li class="skilldetail">
-                        Creating aplications with using gateway .Lora end node programing.
+                        Creating applications with using gateway . Lora end node programing.
                         Gateway-end node, gateway-server, end node-end node comminications.
                     </li>
                 </ul>
