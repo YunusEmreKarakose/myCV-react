@@ -6,7 +6,7 @@ import Skills from './components/skills';
 import Education from './components/education'
 import Other from './components/other'
 function App() {
-  return (dsadsadsa
+  return (
     <div>    
     <Header/>
     <Info/>

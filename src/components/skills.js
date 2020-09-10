@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Skillitem from './skillitem';
 function Skills() {
   return (
     <div>
@@ -12,58 +12,78 @@ function Skills() {
                 <div class="skilllist">
                     <h4 class="descript">Programming Languages</h4>
                     <ul>
-                        <li ><a><img class="skillimg"  src="img/skills/c.png"  ></img></a></li>
-                        <li><a><img class="skillimg"  src="img/skills/c++.png"></img></a></li>
-                        <li><a><img class="skillimg"  src="img/skills/js.png"></img></a></li>
-                        <li>
-                            <a class="linkskill" href="https://github.com/YunusEmreKarakose/PythonServer">
-                                <img class="skillimg"title="Click to view example"   src="img/skills/python.png"></img>
-                            </a>
-                        </li>
+                        <Skillitem
+                            condition="item" 
+                            src="img/skills/c.png"
+                        />
+                        <Skillitem
+                            condition="item"  
+                            src="img/skills/c++.png"
+                        />
+                        <Skillitem
+                            condition="item"  
+                            src="img/skills/js.png"
+                        />
+                        <Skillitem
+                            condition="item"  
+                            href="https://github.com/YunusEmreKarakose/PythonServer"
+                            src="img/skills/python.png"
+                        />
                     </ul>
                 </div>
                 
                 <div class="skilllist">                    
                     <h4 class="descript"> Runtime Environment/Frameworks/API </h4>
                     <ul >
-                        <li>
-                            <a href="https://github.com/YunusEmreKarakose/KtuMebsis">
-                            <img class="skillimg"title="Click to view example" src="img/skills/nodejs.png"  ></img>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/YunusEmreKarakose/KtuMebsis">
-                                <img class="skillimg"title="Click to view example"  src="img/skills/expressjs.png"></img>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/YunusEmreKarakose/myCV-react">
-                                <img class="skillimg"title="Click to view example"  src="img/skills/react.png"></img>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/YunusEmreKarakose/ParalelComputing">
-                                <img  class="skillimg"title="Click to view example" src="img/skills/openmp.png" ></img>
-                            </a>
-                        </li>
+                        <Skillitem
+                            condition="item"  
+                            href="https://github.com/YunusEmreKarakose/KtuMebsis"
+                            src="img/skills/nodejs.png"
+                        />
+                        <Skillitem
+                            condition="item"  
+                            href="https://github.com/YunusEmreKarakose/KtuMebsis"
+                            src="img/skills/expressjs.png"
+                        />
+                        <Skillitem 
+                            condition="item" 
+                            href="https://github.com/YunusEmreKarakose/myCV-react"
+                            src="img/skills/react.png"
+                        />
+                        <Skillitem 
+                            condition="item" 
+                            href="https://github.com/YunusEmreKarakose/ParalelComputing"
+                            src="img/skills/openmp.png"
+                        />
                     </ul>
                 </div>               
                 <div class="skilllist">
                     <h4 class="descript">Databases</h4> 
                     <ul >
-                        <li>
-                            <a href="https://node-mysql-example.herokuapp.com">
-                            <img  class="skillimg"title="Click to view example(Turkish)" src="img/skills/mysql.png"  ></img>
-                            </a>
-                        </li>
-                        <li ><a href="https://github.com/YunusEmreKarakose/NodeJS-2018-Databases/tree/master/EAE-BANK-YEKV3-MongoDB"><img  class="skillimg" src="img/skills/mongo.png"></img></a></li>
+                        <Skillitem 
+                            condition="item" 
+                            href="https://node-mysql-example.herokuapp.com"
+                            src="img/skills/mysql.png"
+                        />
+                        <Skillitem 
+                            condition="item" 
+                            href="https://github.com/YunusEmreKarakose/NodeJS-2018-Databases/tree/master/EAE-BANK-YEKV3-MongoDB"
+                            src="img/skills/mongo.png"
+                        />
                     </ul>
                 </div>            
                 <div class="skilllist">
                     <h4 class="descript">Other</h4>    
                     <ul >
-                        <li ><a href="https://github.com/YunusEmreKarakose/mdot-code-example"><img class="skillimg"  src="img/skills/lora.png"></img></a></li>
-                        <li ><a><img class="skillimg"  src="img/skills/rest.png"></img></a></li>
+                        <Skillitem 
+                            condition="item" 
+                            href="https://github.com/YunusEmreKarakose/mdot-code-example"
+                            src="img/skills/lora.png"
+                        />
+                        <Skillitem 
+                            condition="item" 
+                            src="img/skills/rest.png"
+                        />
                     </ul>
                 </div>
             </div>
@@ -74,18 +94,33 @@ function Skills() {
                     <h2>Skilldetail</h2>                    
                 </div>
                 <ul class="skilldetail">
-                    <li class="skilldetail"> 
-                        C/C++ : Algorithm implementation and applications. Some OOP based applications.
-                        Parallel programing. 
-                    </li>
-                    <li class="skilldetail"> Python: Server/Client applications over UDP/TCP </li>
-                    <li class="skilldetail"> Javascript (NodeJs) : Restful web services, API’s. Database management systems</li>
-                    <li class="skilldetail">Basic knowledge C#, golang and java</li>
-                    <li class="skilldetail"> MySQL : Relational database programing and strong sql knowledge </li>
-                    <li class="skilldetail">
+                    <Skillitem
+                        condition="detail"
+                        content="C/C++ : Algorithm implementation and applications. Some OOP based applications.
+                        Parallel programing. "
+                    />
+                    <Skillitem
+                        condition="detail"
+                        content="Python: Server/Client applications over UDP/TCP"
+                    />
+                    <Skillitem
+                        condition="detail"
+                        content="Javascript (NodeJs) : Restful web services, API’s. Database management systems"
+                    />
+                    <Skillitem
+                        condition="detail"
+                        content="Basic knowledge C#, golang and java"
+                    />
+                    <Skillitem
+                        condition="detail"
+                        content="MySQL : Relational database programing and strong sql knowledge"
+                    />
+                    <Skillitem
+                        condition="detail"
+                        content="
                         Creating applications with using gateway . Lora end node programing.
-                        Gateway-end node, gateway-server, end node-end node comminications.
-                    </li>
+                        Gateway-end node, gateway-server, end node-end node comminications."
+                    />
                 </ul>
             </div>
         </div>
