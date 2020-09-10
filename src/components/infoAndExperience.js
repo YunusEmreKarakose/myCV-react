@@ -8,7 +8,7 @@ function Info() {
                 <div class="default-heading">                    
                     <h2>General Information</h2>                    
                 </div>
-                <p1 class="aboutme">Interested software and web based technologies(Iot, Web Development etc.). 
+                <p1 class="glow">Interested software and web based technologies(Iot, Web Development etc.). 
                     Interested the principle of lifelong learning. I can learn and use quickly 
                     new languages, tools etc.  Can work on Linux 
                     dist(previously used: kubuntu/ubuntu). Can work in a team as a member or 
