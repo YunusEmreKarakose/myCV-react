@@ -31,9 +31,11 @@ function Header() {
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#home">
-                                <img class="img-responsive" src="img/logo/logo3.jpg" alt="" />
-                            </a>
+                            <div class="imgContainer">
+                                <a class="navbar-brand navbar-img" href="#home">
+                                    <img class="img-responsive" src="img/logo/logo3.jpg" alt="" />
+                                </a>
+                            </div>
                         </div>
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

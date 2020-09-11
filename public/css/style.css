@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700');
 
 body{
+	align-items: center;
 	color: #252c37;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
@@ -75,8 +76,8 @@ li a {
 
  
 /* header */
+/*new navigation*/
 /* navigation */
-
 .navbar {
 	margin-top: 40px;
 	border: 0;
@@ -145,6 +146,7 @@ li a {
 /*experience*/
 dl.expinfo{
 	background-color:#656565;
+	border-radius: 24px;
 	color:white;
 	padding: 30px;
 }
@@ -177,6 +179,7 @@ img.skillimg:active{
 }
 /*detail*/
 ul.skilldetail{
+	border-radius: 24px;
 	list-style-type: disc;
 	padding: 30px;
 	background-color: gray;
@@ -205,7 +208,9 @@ li.skilldetail{
 }
 /*language*/
 .languageItem dt{
+	width: 200px;
 	background-color: gray;
+	border-radius: 24px;
 	padding-left: 200px;
 	color:white;
 	font-size: 18px;
@@ -213,6 +218,8 @@ li.skilldetail{
 }
 .languageItem dd{
 	background-color: gray;
+	border-radius: 24px;
+	width: 400px;
 	color:white;
 	font-size: 16px;
 	padding-left: 20px;
@@ -273,19 +280,28 @@ li.skilldetail{
 	}
 /*Ask me*/
 .askItem{
+	border-radius: 24px;
 	float: left;
 }
 .askItem dl{
+	width: 200px;
+	height: 70px;
+	border-radius: 24px;
 	background-color: gray;
 	color: white;
 	font-size: 20px;
-	width: 500px;
+	width: auto;
 }
-.askItem dd{
+.askItem dd{	
+	width: 400px;
+	height: 100px;
 	padding-left: 20px;
+	padding-top: 5px;
 }
 .askItem dt{
+	width: 400px;
 	padding-left: 10px;
+	padding-top: 5px;
 }
 .askLink  a {
 	display: inline-block;
@@ -363,6 +379,7 @@ li.skilldetail{
 	padding: 25px 30px;
 	font-size: 30px;
 	text-transform: uppercase;
+	animation: changeBorderColor 5s infinite;
 }
 
 .default-heading h2:after,
@@ -378,47 +395,22 @@ li.skilldetail{
 	border-color: rgba(240, 240, 255, 0);
 	border-width: 20px;
 	margin-left: -20px;
+	animation: changeTailColor 5s infinite;
 }
 
 .default-heading-shadow h2 {color: #fff;}
 
-@-webkit-keyframes rotating /* Safari and Chrome */ {
-  from {
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+
+/*animated border*/
+@keyframes changeBorderColor {
+	from {border-color: red;border-top-color: red;}
+	to {border-color: blue;border-top-color: blue;}
+}
+@keyframes changeTailColor {
+	from {border-top-color: red;}
+	to {border-top-color: blue;}
 }
 
-@keyframes rotating {
-  from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-.rotating {
-  -webkit-animation: rotating 8s linear infinite;
-  -moz-animation: rotating 8s linear infinite;
-  -ms-animation: rotating 8s linear infinite;
-  -o-animation: rotating 8s linear infinite;
-  animation: rotating 8s linear infinite;
-}
 
 /* promo */
 
@@ -555,7 +547,6 @@ footer .social a {
  
 @media (max-width: 575px){
 	.banner .slide-one h3, .banner .slide-two h3,
-	.banner .slide-one .btn, .banner .slide-two .btn {display: none !important;}
 	.banner-video .slider .video-header {bottom: 70px;}
 	
 	.meet .meet-map .map-marker img {max-width: 15px !important;}
@@ -583,22 +574,11 @@ footer .social a {
 	.navbar .navbar-nav {margin-top: 0;}
 	.secondary-menu {display: none;}
 	
-	.cta .cta-element {
-		max-width: 500px;
-		margin: 0 auto;
-		text-align: center;
-	}
-	
-	.cta .cta-element .cta-btn {margin-top: 30px;}
-	
 }
 
 /*
  * Desktop 
  */
-@media (max-width: 991px){
-	.banner .slide-one, .banner .slide-two {top: 130px;}
-}
-
-@media (max-width: 1100px){ 
+@media (max-width: 1200px){
+	
 }

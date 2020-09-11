@@ -20,7 +20,7 @@ a:focus,a:hover{color:#d12323}.theme-color{color:#f23030}
 .navbar-default .navbar-nav li a{color:#fff}
 .navbar-default .navbar-nav li a:active,.navbar-default .navbar-nav li a:focus,.navbar-default .navbar-nav li a:hover{color:#f23030}.navbar-default .navbar-nav li.active a,.navbar-default .navbar-nav li.active a:active,.navbar-default .navbar-nav li.active a:focus,.navbar-default .navbar-nav li.active 
 a:hover{color:#f23030;background:0 0}
-.default-heading h2,.default-heading-shadow h2{border:2px solid #f23030}
+.default-heading h2,.default-heading-shadow h2{border:4px solid #f23030}
 .default-heading h2:after,.default-heading-shadow h2:after{border-top-color:#f23030}
 .promo .promo-element .promo-link{color:#f23030;background:#333}
 .promo .promo-element .promo-link:hover{color:#d12323}
