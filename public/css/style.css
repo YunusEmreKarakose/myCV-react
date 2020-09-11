@@ -146,6 +146,7 @@ li a {
 /*experience*/
 dl.expinfo{
 	background-color:#656565;
+	border-radius: 24px;
 	color:white;
 	padding: 30px;
 }
@@ -178,6 +179,7 @@ img.skillimg:active{
 }
 /*detail*/
 ul.skilldetail{
+	border-radius: 24px;
 	list-style-type: disc;
 	padding: 30px;
 	background-color: gray;
@@ -206,7 +208,9 @@ li.skilldetail{
 }
 /*language*/
 .languageItem dt{
+	width: 200px;
 	background-color: gray;
+	border-radius: 24px;
 	padding-left: 200px;
 	color:white;
 	font-size: 18px;
@@ -214,6 +218,8 @@ li.skilldetail{
 }
 .languageItem dd{
 	background-color: gray;
+	border-radius: 24px;
+	width: 400px;
 	color:white;
 	font-size: 16px;
 	padding-left: 20px;
@@ -274,19 +280,28 @@ li.skilldetail{
 	}
 /*Ask me*/
 .askItem{
+	border-radius: 24px;
 	float: left;
 }
 .askItem dl{
+	width: 200px;
+	height: 70px;
+	border-radius: 24px;
 	background-color: gray;
 	color: white;
 	font-size: 20px;
 	width: auto;
 }
-.askItem dd{
+.askItem dd{	
+	width: 400px;
+	height: 100px;
 	padding-left: 20px;
+	padding-top: 5px;
 }
 .askItem dt{
+	width: 400px;
 	padding-left: 10px;
+	padding-top: 5px;
 }
 .askLink  a {
 	display: inline-block;

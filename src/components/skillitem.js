@@ -6,7 +6,7 @@ function Skillitem(props){
         return(
             <li>
                 <a class="linkskill" href={props.href}>
-                    <img class="skillimg" title="Click to view example"   src={props.src}></img>
+                    <img class="skillimg" alt="err" title="Click to view example"   src={props.src}></img>
                 </a>
             </li>
         )
