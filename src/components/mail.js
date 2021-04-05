@@ -28,7 +28,6 @@ class Mail extends React.Component {
             message:this.state.message,
             pass:this.state.pass
         }
-        console.log(this.state)
         //post        
         axios.post(url,data)
             .then((response)=>{
