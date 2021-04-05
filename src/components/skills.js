@@ -93,35 +93,40 @@ function Skills() {
                 <div class="default-heading-shadow">                    
                     <h2>Skilldetail</h2>                    
                 </div>
-                <ul class="skilldetail">
-                    <Skillitem
-                        condition="detail"
-                        content="C/C++ : Algorithm implementation and applications. Some OOP based applications.
-                        Parallel programing. "
-                    />
-                    <Skillitem
-                        condition="detail"
-                        content="Python: Server/Client applications over UDP/TCP"
-                    />
-                    <Skillitem
-                        condition="detail"
-                        content="Javascript (NodeJs) : Restful web services, API’s. Database management systems"
-                    />
-                    <Skillitem
-                        condition="detail"
-                        content="Basic knowledge C#, golang and java"
-                    />
-                    <Skillitem
-                        condition="detail"
-                        content="MySQL : Relational database programing and strong sql knowledge"
-                    />
-                    <Skillitem
-                        condition="detail"
-                        content="
-                        Creating applications with using gateway . Lora end node programing.
-                        Gateway-end node, gateway-server, end node-end node comminications."
-                    />
-                </ul>
+                
+                <div class="denemewrap">
+                    <div class="deneme">                
+                        <ul class="skilldetail">
+                            <Skillitem
+                                condition="detail"
+                                content="C/C++ : Algorithm implementation and applications. Some OOP based applications.
+                                Parallel programing. "
+                            />
+                            <Skillitem
+                                condition="detail"
+                                content="Python: Server/Client applications over UDP/TCP"
+                            />
+                            <Skillitem
+                                condition="detail"
+                                content="Javascript (NodeJs) : Restful web services, API’s. Database management systems"
+                            />
+                            <Skillitem
+                                condition="detail"
+                                content="Basic knowledge C#, golang and java"
+                            />
+                            <Skillitem
+                                condition="detail"
+                                content="MySQL : Relational database programing and strong sql knowledge"
+                            />
+                            <Skillitem
+                                condition="detail"
+                                content="
+                                Creating applications with using gateway . Lora end node programing.
+                                Gateway-end node, gateway-server, end node-end node comminications."
+                            />
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

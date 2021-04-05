@@ -1,5 +1,5 @@
 import React from 'react';
-
+import EDropdown from './educationDropdown'
 function Education() {
   return (
     <div>        
@@ -12,8 +12,10 @@ function Education() {
                     <img src="./img/logo/ktulogo.png"></img>
                     <h1>Karadeniz Technical University</h1>
                     <p1>Computer Engineering</p1>
-
+                    <h6>Corona GPA: 2.86</h6>
+                    <h6>Real GPA: 2.00000000001</h6>
                 </div>
+            <EDropdown />
                 
             </div>
         </div>

@@ -33,7 +33,7 @@ function Header() {
                             </button>
                             <div class="imgContainer">
                                 <a class="navbar-brand navbar-img" href="#home">
-                                    <img class="img-responsive" src="img/logo/logo3.jpg" alt="" />
+                                    <img class="profilephoto" src="img/logo/me.png" alt="" />
                                 </a>
                             </div>
                         </div>

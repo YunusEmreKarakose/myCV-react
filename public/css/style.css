@@ -76,6 +76,9 @@ li a {
 
  
 /* header */
+.profilephoto{
+	border-radius: 100%;
+}
 /*new navigation*/
 /* navigation */
 .navbar {
@@ -83,7 +86,7 @@ li a {
 	border: 0;
 	border-radius:0;
 	box-shadow: none;
-	background: rgba(0,0,0,0.25);
+	background: rgba(0,0,0,1);
 	-webkit-transition: all 0.25s ease;
 	-moz-transition: all 0.25s ease;
 	-ms-transition: all 0.25s ease;
@@ -164,30 +167,51 @@ dl.expinfo{
 }
 .skilllist ul li{
 	display: inline-flex;
+}
+img.skillimg{
 	padding-left: 30px;
 	padding-right: 30px;
-}/*
-.pad .skilllist ul li img:hover,
-.pad .skilllist ul li img:active{
-	width: 150%;
-
-}*/
-
+	transition: transform 1s; /* Animation */
+}
 img.skillimg:hover,
 img.skillimg:active{
-	width: 150%;
+	transform: scale(1.5);
 }
 /*detail*/
+.denemewrap{
+	position: relative;
+	margin: auto;	
+	background-color: #ebecf0;
+	width: 1200px;
+	padding:25px;
+	border-radius: 10px;
+}
+.deneme{
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	border-radius: 10px;
+	padding: 16px;
+	padding-left: 50px;
+	background-color: #ebecf0;
+	text-shadow: 1px 1px 0 #fff;
+	margin-right: 8px;
+	box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+	width: 100%;
+	box-sizing: border-box;
+	transition: all 0.2s ease-in-out;
+	appearance: none;
+	-webkit-appearance: none;
+}
 ul.skilldetail{
 	border-radius: 24px;
 	list-style-type: disc;
 	padding: 30px;
-	background-color: gray;
 }
 li.skilldetail{
 	float:none;
 	font-size: 18px;
-	color: white;
+	color: black;
 	list-style-type: disc;
 }
 /*education*/
@@ -201,10 +225,34 @@ li.skilldetail{
 	font-size:18px;
 }
 .educationItem img{
-	width: 9%;
-	height: 9%;
+	width: 12%;
+	height: 12%;
 	float: left;
 	padding-right: 30px;
+	transition: transform 1s; /* Animation */
+}
+.educationItem img:hover,
+.educationItem img:active{
+	transform: scale(1.8);
+}
+/*edropdown*/
+.dropdowntable{
+	padding-left: 100;
+}
+.dropdowntable button{
+	border-radius: 10%;
+	width: 100px;
+	height: 30px;
+}
+.tableitself td{
+	padding-top: 10px;
+	padding-right: 50px;
+}
+.blackrow{
+	background-color: #9c9c9c;
+}
+.grayrow{
+	background-color: #c5c5c5;
 }
 /*language*/
 .languageItem dt{
@@ -315,6 +363,103 @@ li.skilldetail{
 	-ms-transition: all 0.25s linear;
 	-o-transition: all 0.25s linear;
 	transition: all 0.25s linear;
+}
+
+/*mail form*/
+.mailpad{
+	background-color: #ebecf0;
+}
+form.mailform{
+	padding: 16px;
+	width: 320px;
+	margin: 0 auto;
+}
+.segment{
+
+	padding: 32px 0;
+	text-align: center;
+}
+.mailform div, p {
+	color: #babecc;
+	text-shadow: 1px 1px 1px #fff;
+}
+.mailform button,input{
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	border-radius: 320px;
+	padding: 16px;
+	background-color: #ebecf0;
+	text-shadow: 1px 1px 0 #fff;
+}
+.mailform textarea{	
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	border-radius: 1%;
+	padding: 16px;
+	background-color: #ebecf0;
+	text-shadow: 1px 1px 0 #fff;
+	margin-right: 8px;
+	box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+	width: 100%;
+	box-sizing: border-box;
+	transition: all 0.2s ease-in-out;
+	appearance: none;
+	-webkit-appearance: none;
+}
+.mailform label{
+	display: block;
+	margin-bottom: 24px;
+	width: 100%;
+}
+.mailform input{
+	margin-right: 8px;
+	box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+	width: 100%;
+	box-sizing: border-box;
+	transition: all 0.2s ease-in-out;
+	appearance: none;
+	-webkit-appearance: none;
+}
+.mailform input:focus{
+	box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+.mailform button{
+	color: #61677c;
+	font-weight: bold;
+	box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+	font-weight: 600;
+}
+.mailform button:hover{
+	box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+.mailform button:active {
+	box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+.mailform button .icon {
+	margin-right: 8px;
+}
+.mailform button.unit {
+	border-radius: 8px;
+	line-height: 0;
+	width: 48px;
+	height: 48px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 8px;
+	font-size: 19.2px;
+}
+.mailform button.unit .icon {
+	margin-right: 0;
+}
+.mailform button.red {
+	display: block;
+	width: 100%;
+	color: #ae1100;
 }
 /* secondary menu */
 
@@ -531,9 +676,7 @@ footer .social a {
 	margin: 5px auto;
 }	
 
-/*
- * Responsive CSS 
- */
+
 
 /*
  * Mobile phones 
@@ -567,12 +710,17 @@ footer .social a {
 	}
 	.navbar .navbar-nav {margin-top: 0;}
 	.secondary-menu {display: none;}
+	.denemewrap{
+		width: 90%;
+	}
 }
 
 /*
  * Desktop 
  */
-@media (max-width: 1200px){
+@media (max-width: 1000px){
+	
+
 	
 }
 @media (min-width: 1000px){
