@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/myCV-react/static/css/main.69eda509.chunk.css",
+    "main.js": "/myCV-react/static/js/main.67b20577.chunk.js",
+    "main.js.map": "/myCV-react/static/js/main.67b20577.chunk.js.map",
+    "runtime-main.js": "/myCV-react/static/js/runtime-main.72db7918.js",
+    "runtime-main.js.map": "/myCV-react/static/js/runtime-main.72db7918.js.map",
+    "static/js/2.94514c78.chunk.js": "/myCV-react/static/js/2.94514c78.chunk.js",
+    "static/js/2.94514c78.chunk.js.map": "/myCV-react/static/js/2.94514c78.chunk.js.map",
+    "index.html": "/myCV-react/index.html",
+    "precache-manifest.12ea4d7305959bd03dc420d07001c5d8.js": "/myCV-react/precache-manifest.12ea4d7305959bd03dc420d07001c5d8.js",
+    "service-worker.js": "/myCV-react/service-worker.js",
+    "static/css/main.69eda509.chunk.css.map": "/myCV-react/static/css/main.69eda509.chunk.css.map",
+    "static/js/2.94514c78.chunk.js.LICENSE.txt": "/myCV-react/static/js/2.94514c78.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72db7918.js",
+    "static/js/2.94514c78.chunk.js",
+    "static/css/main.69eda509.chunk.css",
+    "static/js/main.67b20577.chunk.js"
+  ]
+}
