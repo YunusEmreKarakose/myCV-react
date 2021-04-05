@@ -37,7 +37,7 @@ class Mail extends React.Component {
     }  
     render(){        
         return (
-            <div class="mailpad">     
+            <div class="mailpad" id="contact">     
                 <form class="mailform" onSubmit={this.submitHandler}>  
                     <div class="segment">
                         <h1>Send Email</h1>

@@ -47,6 +47,7 @@ function Header() {
                                 <li><a href="#languages">Languages</a></li>
                                 <li><a href="#interests">Interests</a></li>
                                 <li><a href="#ask">Ask About Me</a></li>
+                                <li><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
