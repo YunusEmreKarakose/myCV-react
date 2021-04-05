@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import MailChild from './mailChild'
 class Mail extends React.Component {
     constructor(){
         super()
@@ -8,7 +9,8 @@ class Mail extends React.Component {
             email:null,
             message:null,
             pass:"123456",
-            isSent:false
+            isSent:false,
+            isError:false
         };
         this.handleChange=this.handleChange.bind(this);
     }
@@ -31,13 +33,22 @@ class Mail extends React.Component {
         axios.post(url,data)
             .then((response)=>{
                 console.log(response)
+                this.setState({
+                    isSent:true
+                })
             }).catch(err=>{
-                console.log(err)
+                console.log(err)                
+                this.setState({
+                    isError:true
+                })
             })
     }  
     render(){        
         return (
-            <div class="mailpad" id="contact">     
+            <div class="mailpad" id="contact">
+                {
+                !this.state.isSent
+                ? (     
                 <form class="mailform" onSubmit={this.submitHandler}>  
                     <div class="segment">
                         <h1>Send Email</h1>
@@ -53,6 +64,10 @@ class Mail extends React.Component {
                     </label>
                     <button type="submit" class="red" >Send</button>                                                          
                 </form>
+                ):(
+                   <MailChild error={this.state.isError}/>
+                )
+                }
             </div> 
             )
     }  

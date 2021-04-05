@@ -461,6 +461,24 @@ form.mailform{
 	width: 100%;
 	color: #ae1100;
 }
+.mailerror{
+	text-align: center;
+	display: block;
+	padding-bottom: 20px;
+}
+.mailerror img{
+	max-width: 30%;
+	height: auto;
+}
+.thankyou{
+	text-align: center;
+	display: block;
+	padding-bottom: 20px;
+}.thankyou img{
+	position: relative;
+	max-width: 30%;
+	height: auto;
+}
 /* secondary menu */
 
 .secondary-menu {
