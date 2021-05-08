@@ -82,7 +82,15 @@ function Skills() {
                         />
                         <Skillitem 
                             condition="item" 
-                            src="img/skills/rest.png"
+                            src="img/skills/css.png"
+                        />
+                        <Skillitem 
+                            condition="item" 
+                            src="img/skills/html.png"
+                        />
+                        <Skillitem 
+                            condition="item" 
+                            src="img/skills/latex.png"
                         />
                     </ul>
                 </div>
@@ -104,7 +112,7 @@ function Skills() {
                             />
                             <Skillitem
                                 condition="detail"
-                                content="Python: Server/Client applications over UDP/TCP"
+                                content="Python: Some coding related to lessons. Django Beginner"
                             />
                             <Skillitem
                                 condition="detail"

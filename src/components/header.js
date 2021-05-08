@@ -8,8 +8,8 @@ function Header() {
                 <nav class="secondary-menu">
                     <div class="container">
                         <div class="sm-left">
-                            <strong>Phone</strong>:&nbsp; <a href="#">+90 534 926 8853</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                            <strong>E-mail</strong>:&nbsp; <a href="#">karakose.y.emre@gmail.com</a>
+                            &nbsp;<a class="fa fa-whatsapp"></a> +90 534 926 8853&nbsp;&nbsp;&nbsp;&nbsp;
+                            <strong>E-mail</strong>:&nbsp; karakose.y.emre@gmail.com
                         </div>
                         <div class="sm-right">
                             <div class="sm-social-link">
