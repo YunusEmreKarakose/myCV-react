@@ -116,6 +116,15 @@ li a {
 .sm-social-link a.fa-linkedin:active{
 	background-color: #0072b1;
 }
+a.fa-whatsapp{
+	padding: 10px;
+	font-size: 22px;
+	position: relative;
+}
+a.fa-whatsapp:hover,
+a.fa-whatsapp:active{
+	background-color: #25D366;
+}
 .sm-social-link a.fa-github:hover,
 .sm-social-link a.fa-github:active{
 	background-color: #333;
@@ -240,32 +249,75 @@ li.skilldetail{
 	padding-left: 100;
 }
 .dropdowntable button{
-	border-radius: 10%;
+	border-radius: 4px;
+	background-color: black;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
 	width: 100px;
-	height: 30px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+.dropdowntable button span{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;	
+}
+.dropdowntable button span:after{
+	content: '\2195';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.dropdowntable button:hover span{	
+	padding-right: 25px;
+}
+.dropdowntable button:hover span:after{
+	opacity: 1;
+	right: 0;	
+}
+.tableitself th{	
+	padding: 10px 50px 10px 50px;	
+	background-color: #9c9c9c;
 }
 .tableitself td{
-	padding-top: 10px;
-	padding-right: 50px;
+	padding: 10px 50px 10px 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 .blackrow{
 	background-color: #9c9c9c;
+	margin: 10px;
 }
-.grayrow{
+.grayrow{	
+	margin: 10px;
 	background-color: #c5c5c5;
 }
+.lessonexample{
+	color:blue;
+}
+.lessonexample:hover{
+	color: green;
+}
 /*language*/
-.languageItem dt{
-	background-color: gray;
+.languageItem {
+	align-items: center;
+	background-color: darkslategray;
 	border-radius: 24px;
+	box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+.languageItem dt{
 	padding-left: 200px;
 	color:white;
 	font-size: 18px;
 	padding:10px;
 }
 .languageItem dd{
-	background-color: gray;
-	border-radius: 24px;
 	color:white;
 	font-size: 16px;
 	padding-left: 20px;
