@@ -38,7 +38,7 @@ class Mail extends React.Component {
                     })
                 }else{                    
                     this.setState({
-                        isSent:false
+                        isError:false
                     })
                 }
             }).catch(err=>{
