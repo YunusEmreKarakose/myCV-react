@@ -10,7 +10,7 @@ function Info() {
                 </div>
                 <p1 class="glow">Interested software and web technologies(Web Development etc.). 
                     Interested the principle of lifelong learning. I can learn and use quickly 
-                    new languages, tools etc.
+                    new languages, tools etc. (In short i like coding)
                 </p1>
             </div>
         </div>

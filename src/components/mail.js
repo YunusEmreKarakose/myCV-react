@@ -50,7 +50,7 @@ class Mail extends React.Component {
                 ? (     
                 <form class="mailform" onSubmit={this.submitHandler}>  
                     <div class="segment">
-                        <h1>Send Email</h1>
+                        <h1>Contact</h1>
                     </div>                    
                     <label>
                         <input type="text" name="name" placeholder="Name" onChange={this.handleChange}></input>

@@ -40,12 +40,11 @@ function Header() {
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#general">General İnformation</a></li>
                                 <li><a href="#experience">Experience</a></li>
                                 <li><a href="#skills">Skills</a></li>
                                 <li><a href="#education">Education</a></li>
                                 <li><a href="#languages">Languages</a></li>
-                                <li><a href="#interests">Interests</a></li>
+                                <li><a href="#interests">Hobbies </a></li>
                                 <li><a href="#ask">Ask About Me</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>

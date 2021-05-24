@@ -6,7 +6,7 @@ function Other() {
         <div class="pad" id="interests">
             <div>
                 <div class="default-heading">
-                    <h2>interests</h2>
+                    <h2>hobbies</h2>
                 </div>
                 <div class="interestItem">
                     <ul>
@@ -47,7 +47,7 @@ function Other() {
                 />
                 <OtherItem
                     condition="refItem"
-                    name="Sedat Görmüş"
+                    name="Sedat GÖRMÜŞ"
                     content="Assistant Professor at K.T.U"
                     href="https://www.linkedin.com/in/sedat-gormus-1397737/"
                 />
