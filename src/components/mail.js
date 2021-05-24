@@ -32,7 +32,7 @@ class Mail extends React.Component {
         axios.post(url,data)
             .then((response)=>{
                 console.log(response.data)
-                if(response.data=="OK"){
+                if(response.data==="OK"){
                     this.setState({
                         isSent:true
                     })
