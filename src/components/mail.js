@@ -31,10 +31,16 @@ class Mail extends React.Component {
         //post        
         axios.post(url,data)
             .then((response)=>{
-                console.log(response)
-                this.setState({
-                    isSent:true
-                })
+                console.log(response.data)
+                if(response.data=="OK"){
+                    this.setState({
+                        isSent:true
+                    })
+                }else{                    
+                    this.setState({
+                        isSent:false
+                    })
+                }
             }).catch(err=>{
                 console.log(err)                
                 this.setState({
