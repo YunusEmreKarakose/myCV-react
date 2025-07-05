@@ -64,6 +64,16 @@ export default function Experience() {
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">2018 Summer</span></div>
                 </div>
+                <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div className="flex-grow-1">
+                        <h3 className="mb-0">Founder</h3>
+                        <div className="subheading mb-3">
+                            <a href="https://emreoyun05.tr.gg/" target="_blank" >emreoyun05.tr.gg</a>
+                        </div>
+                        <p>In 2008, I created a website using a control panel where I shared Adobe Flash games that I liked. Most of the content was only accessible after logging in. The website is still online, but the design and content are now broken. I also no longer have access to the control panel, but it was a valuable experience for me to learn about web development and running a website.</p>
+                    </div>
+                    <div className="flex-shrink-0"><span className="text-primary">2008</span></div>
+                </div>
             </div>
         </section>
 
