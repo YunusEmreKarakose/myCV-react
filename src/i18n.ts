@@ -243,7 +243,7 @@ i18n.use(initReactI18next).init({
       translation: {
         about: 'Über mich',
         experience: 'Erfahrung',
-        education: 'Ausbildung',
+        education: 'Studium',
         skills: 'Fähigkeiten',
         interests: 'Interessen',
         download: 'PDF Herunterladen',
