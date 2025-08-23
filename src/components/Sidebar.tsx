@@ -135,7 +135,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile, sidebarOpen, setSidebarOpen
         )}
         {/* Profile image */}
         <img
-          src="/assets/img/profile.jpg"
+          src="/resume/assets/img/profile.jpg"
           alt="Profile avatar"
           className={SIDEBAR_PROFILE_IMG}
         />

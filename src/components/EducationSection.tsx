@@ -14,7 +14,7 @@ const EducationSection: React.FC = () => {
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-1">
               <div>
                 <a href="http://www.katalog.ktu.edu.tr/DersBilgiPaketi/generalinfo.aspx?pid=9&lang=2" target="_blank">
-                  <img src='/images/ktu.png'></img>
+                  <img src='/resume/images/ktu.png'></img>
                 </a>
                 <div className="font-bold text-lg uppercase tracking-wide">&emsp;{edu.degree}</div>
                 <div>&emsp;&nbsp;GPA: 2.88</div>

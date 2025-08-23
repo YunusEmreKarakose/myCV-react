@@ -2,22 +2,22 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const SKILL_ICONS_1 = [
-  {name:"Solidity",icon:"/images/solidity_logo.svg",link:"https://soliditylang.org/"},
-  {name:"Hardhat",icon:"/images/Hardhat.svg",link:"https://hardhat.org/"},
-  {name:"Ethers",icon:"/images/ethers.svg",link:"https://ethers.org/"},
-  {name:"Truffle",icon:"/images/truffle.svg",link:"https://trufflesuite.com/"},
-  {name:"Web3Js",icon:"/images/web3js.svg",link:"https://docs.web3js.org/"},
-  {name:"Anchor Framework",icon:"/images/anchor_framework.png",link:"https://www.anchor-lang.com/docs/clients/rust"}
+  {name:"Solidity",icon:"/resume/images/solidity_logo.svg",link:"https://soliditylang.org/"},
+  {name:"Hardhat",icon:"/resume/images/Hardhat.svg",link:"https://hardhat.org/"},
+  {name:"Ethers",icon:"/resume/images/ethers.svg",link:"https://ethers.org/"},
+  {name:"Truffle",icon:"/resume/images/truffle.svg",link:"https://trufflesuite.com/"},
+  {name:"Web3Js",icon:"/resume/images/web3js.svg",link:"https://docs.web3js.org/"},
+  {name:"Anchor Framework",icon:"/resume/images/anchor_framework.png",link:"https://www.anchor-lang.com/docs/clients/rust"}
 ];
 const SKILL_ICONS_2 = [
-  {name:"Javascript",icon:"/images/javascript.webp",link:"https://www.javascript.com/"},
-  {name:"Typescript",icon:"/images/typescript.svg",link:"https://www.typescriptlang.org/"},
-  {name:"NodeJs",icon:"/images/Node.js.svg",link:"https://nodejs.org/"},
-  {name:"ReactJs",icon:"/images/react.png",link:"https://react.dev/"},
-  {name:"ExpressJs",icon:"/images/icons8-express-js-480.svg",link:"https://expressjs.com/"},
-  {name:"Bootstrap",icon:"/images/icons8-bootstrap-logo-480.svg",link:"https://getbootstrap.com/"},
-  {name:"MongoDB",icon:"/images/mongodb.png",link:"https://www.mongodb.com/"},
-  {name:"MySQL",icon:"/images/mysql.png",link:"https://www.mysql.com/"},
+  {name:"Javascript",icon:"/resume/images/javascript.webp",link:"https://www.javascript.com/"},
+  {name:"Typescript",icon:"/resume/images/typescript.svg",link:"https://www.typescriptlang.org/"},
+  {name:"NodeJs",icon:"/resume/images/Node.js.svg",link:"https://nodejs.org/"},
+  {name:"ReactJs",icon:"/resume/images/react.png",link:"https://react.dev/"},
+  {name:"ExpressJs",icon:"/resume/images/icons8-express-js-480.svg",link:"https://expressjs.com/"},
+  {name:"Bootstrap",icon:"/resume/images/icons8-bootstrap-logo-480.svg",link:"https://getbootstrap.com/"},
+  {name:"MongoDB",icon:"/resume/images/mongodb.png",link:"https://www.mongodb.com/"},
+  {name:"MySQL",icon:"/resume/images/mysql.png",link:"https://www.mysql.com/"},
 ];
 const SkillsSection: React.FC = () => {
   const { t } = useTranslation();
