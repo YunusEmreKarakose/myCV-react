@@ -1,0 +1,306 @@
+{
+    "designSystem": {
+      "name": "Professional Resume Portfolio Design System",
+      "version": "1.0",
+      "description": "A comprehensive design system for creating professional resume and portfolio layouts with sidebar navigation and card-based content structure"
+    },
+    
+    "layout": {
+      "structure": "sidebar-main",
+      "breakpoints": {
+        "mobile": "320px-768px",
+        "desktop": "769px+"
+      },
+      "grid": {
+        "sidebar": {
+          "width": "280px-320px",
+          "position": "fixed-left",
+          "fullHeight": true
+        },
+        "main": {
+          "marginLeft": "sidebar-width",
+          "padding": "40px-60px",
+          "maxWidth": "800px-1000px"
+        }
+      },
+      "responsive": {
+        "mobile": {
+          "sidebar": "collapsible-overlay",
+          "hamburgerMenu": true,
+          "stackedLayout": true
+        }
+      }
+    },
+  
+    "colorPalette": {
+      "primary": {
+        "orange": "#C85A3A",
+        "orangeLight": "#D67456",
+        "orangeDark": "#B24628"
+      },
+      "neutrals": {
+        "white": "#FFFFFF",
+        "lightGray": "#F5F5F5",
+        "mediumGray": "#E0E0E0",
+        "darkGray": "#666666",
+        "charcoal": "#333333"
+      },
+      "accent": {
+        "blue": "#38adbd",
+        "green": "#7ED321"
+      }
+    },
+  
+    "typography": {
+      "fontFamilies": {
+        "primary": "Arial, Helvetica, sans-serif",
+        "secondary": "Georgia, serif",
+        "monospace": "Courier New, monospace"
+      },
+      "fontSizes": {
+        "h1": "36px-42px",
+        "h2": "28px-32px",
+        "h3": "20px-24px",
+        "h4": "16px-18px",
+        "body": "14px-16px",
+        "small": "12px-14px"
+      },
+      "fontWeights": {
+        "light": 300,
+        "regular": 400,
+        "medium": 500,
+        "bold": 700
+      },
+      "lineHeights": {
+        "tight": 1.2,
+        "normal": 1.4,
+        "relaxed": 1.6
+      }
+    },
+  
+    "components": {
+      "sidebar": {
+        "background": "primary.orange",
+        "textColor": "white",
+        "padding": "40px 20px",
+        "elements": {
+          "profileImage": {
+            "shape": "circle",
+            "size": "80px-100px",
+            "border": "3px solid white",
+            "marginBottom": "20px"
+          },
+          "navigation": {
+            "listStyle": "none",
+            "itemPadding": "12px 0",
+            "fontSize": "14px-16px",
+            "fontWeight": "medium",
+            "textTransform": "uppercase",
+            "letterSpacing": "1px",
+            "hoverEffect": "opacity-0.8"
+          }
+        }
+      },
+  
+      "header": {
+        "name": {
+          "fontSize": "h1",
+          "fontWeight": "bold",
+          "color": "charcoal",
+          "marginBottom": "10px",
+          "textTransform": "uppercase",
+          "letterSpacing": "2px"
+        },
+        "title": {
+          "fontSize": "h4",
+          "color": "darkGray",
+          "marginBottom": "20px"
+        },
+        "contactInfo": {
+          "fontSize": "small",
+          "color": "darkGray",
+          "layout": "horizontal-list",
+          "separator": "bullet-or-pipe"
+        }
+      },
+  
+      "contentSections": {
+        "section": {
+          "marginBottom": "50px-60px",
+          "title": {
+            "fontSize": "h2",
+            "fontWeight": "bold",
+            "color": "charcoal",
+            "textTransform": "uppercase",
+            "letterSpacing": "1px",
+            "marginBottom": "30px"
+          }
+        },
+        
+        "experienceCard": {
+          "background": "white",
+          "border": "1px solid mediumGray",
+          "borderRadius": "8px-12px",
+          "padding": "25px-30px",
+          "marginBottom": "20px",
+          "boxShadow": "subtle",
+          "elements": {
+            "jobTitle": {
+              "fontSize": "h3",
+              "fontWeight": "bold",
+              "color": "charcoal",
+              "marginBottom": "5px"
+            },
+            "company": {
+              "fontSize": "body",
+              "color": "primary.orange",
+              "fontWeight": "medium",
+              "marginBottom": "10px"
+            },
+            "dateRange": {
+              "fontSize": "small",
+              "color": "darkGray",
+              "float": "right",
+              "fontStyle": "italic"
+            },
+            "description": {
+              "fontSize": "body",
+              "color": "charcoal",
+              "lineHeight": "relaxed",
+              "marginTop": "15px"
+            }
+          }
+        }
+      },
+  
+      "skillsSection": {
+        "layout": "grid-or-flex",
+        "skillIcons": {
+          "size": "40px-50px",
+          "spacing": "15px-20px",
+          "grayscaleDefault": true,
+          "colorOnHover": true,
+          "tooltip": true
+        },
+        "skillCategories": {
+          "title": {
+            "fontSize": "h4",
+            "fontWeight": "medium",
+            "color": "charcoal",
+            "marginBottom": "15px"
+          }
+        }
+      },
+  
+      "socialLinks": {
+        "layout": "horizontal",
+        "iconSize": "30px-35px",
+        "spacing": "15px",
+        "style": "circular-background",
+        "backgroundColor": "darkGray",
+        "hoverColor": "primary.orange"
+      }
+    },
+  
+    "spacing": {
+      "scale": {
+        "xs": "5px",
+        "sm": "10px",
+        "md": "15px",
+        "lg": "20px",
+        "xl": "30px",
+        "xxl": "40px",
+        "xxxl": "60px"
+      },
+      "sections": "xxxl",
+      "cards": "lg",
+      "elements": "md"
+    },
+  
+    "effects": {
+      "shadows": {
+        "subtle": "0 2px 4px rgba(0,0,0,0.1)",
+        "medium": "0 4px 8px rgba(0,0,0,0.15)",
+        "strong": "0 8px 16px rgba(0,0,0,0.2)"
+      },
+      "transitions": {
+        "default": "all 0.3s ease",
+        "fast": "all 0.2s ease",
+        "slow": "all 0.5s ease"
+      },
+      "hover": {
+        "cards": "translateY(-2px) + shadow-medium",
+        "buttons": "opacity-0.8",
+        "icons": "color-change + scale(1.1)"
+      }
+    },
+  
+    "patterns": {
+      "cardDesign": {
+        "background": "white",
+        "border": "light-gray",
+        "borderRadius": "8px-12px",
+        "padding": "25px-30px",
+        "spacing": "20px-bottom",
+        "shadow": "subtle",
+        "hoverEffect": "lift-and-shadow"
+      },
+      
+      "contentHierarchy": {
+        "primaryHeading": "large + bold + dark + uppercase + letterspaced",
+        "secondaryHeading": "medium + bold + dark + uppercase",
+        "tertiaryHeading": "medium + bold + dark",
+        "bodyText": "regular + dark + relaxed-line-height",
+        "metaText": "small + gray + italic"
+      },
+  
+      "navigationPattern": {
+        "style": "vertical-sidebar",
+        "activeState": "highlighted-background",
+        "hoverState": "opacity-change",
+        "typography": "uppercase + letterspaced + medium-weight"
+      }
+    },
+  
+    "responsive": {
+      "mobile": {
+        "sidebar": {
+          "behavior": "collapsible-overlay",
+          "trigger": "hamburger-menu",
+          "animation": "slide-from-left"
+        },
+        "content": {
+          "padding": "20px",
+          "typography": "scale-down-10-15%",
+          "cards": "full-width-minus-padding"
+        },
+        "grid": {
+          "skills": "2-3-columns",
+          "projects": "single-column"
+        }
+      }
+    },
+  
+    "accessibility": {
+      "colorContrast": "WCAG-AA-compliant",
+      "focusStates": "visible-outline",
+      "altText": "required-for-images",
+      "semanticMarkup": "proper-heading-hierarchy"
+    },
+  
+    "animations": {
+      "pageLoad": "fade-in-up",
+      "cardEntrance": "staggered-fade-in",
+      "hoverEffects": "smooth-transitions",
+      "mobileMenu": "slide-animations"
+    },
+  
+    "usageGuidelines": {
+      "primaryColor": "Use orange for branding, highlights, and interactive elements",
+      "whitespace": "Generous padding and margins for clean, professional look",
+      "typography": "Consistent hierarchy with uppercase headings for structure",
+      "cards": "Use for grouping related content with clear visual separation",
+      "icons": "Consistent sizing and style, grayscale with color on interaction",
+      "responsive": "Mobile-first approach with collapsible sidebar navigation"
+    }
+  }
