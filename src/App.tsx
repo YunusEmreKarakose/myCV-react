@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import './i18n';
 import Sidebar from './components/Sidebar';
-import Header from './components/Header';
 import AboutSection from './components/AboutSection';
 import ExperienceSection from './components/ExperienceSection';
 import EducationSection from './components/EducationSection';
